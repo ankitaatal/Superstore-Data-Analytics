@@ -24,9 +24,9 @@ An ERD (Entity Relationship Diagram) is included to visualize relationships betw
 3. Product Performance & Market Insights: Evaluating top products, pricing strategies, and market trends.
 4. Operational & Logistics Analysis: Improving shipping efficiency and cost-effectiveness.
 
-
 📂 Project Structure
 ---
+```
 📦 Superstore-Analytics
 │── 📁 data/               # Contains dataset files
 │    ├── superstore.csv    # Raw dataset
@@ -43,7 +43,7 @@ An ERD (Entity Relationship Diagram) is included to visualize relationships betw
 │    ├── erd_diagram.png
 │
 │── README.md              # Project documentation (this file)
-
+```
 
 
 
