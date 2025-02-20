@@ -24,16 +24,16 @@ Performed in **Jupyter Notebook** using **Python (pandas, NumPy)** to ensure dat
 📍 **Notebook Location**: [`data_cleaning.ipynb`](data_cleaning/data_cleaning.ipynb)
 
 ## Key Insights & Analysis
-### **1. Sales Performance & Revenue**  
+#### **1. Sales Performance & Revenue**  
 Analyzed **total sales, profit trends, and discount impact**. Identified **growth patterns across months, quarters, and years** to optimize pricing and promotions.
 
-### **2. Customer Behavior & Segmentation**  
+#### **2. Customer Behavior & Segmentation**  
 Classified customers into **high, medium, and low-value groups**. Conducted **RFM analysis** to track **purchasing habits, retention, and churn rates**.
 
-### **3. Product Performance & Market Insights**  
+#### **3. Product Performance & Market Insights**  
 Identified **best and worst-selling products**, analyzed **category contributions**, and performed **market basket analysis** to uncover frequently bought-together items.
 
-### **4. Operational & Logistics Efficiency**  
+#### **4. Operational & Logistics Efficiency**  
 Evaluated **shipping times, delays, and cost-effectiveness** across shipping modes. Assessed **seasonality trends** to optimize logistics and delivery performance.
 
 ## Technologies Used
