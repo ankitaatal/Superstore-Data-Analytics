@@ -21,7 +21,7 @@ An **ERD (Entity Relationship Diagram)** is included to visualize relationships 
 
 📂 Location: [`queries/ERD.mwb`](queries/ERD.mwb)  
 
-![Entity Relationship Diagram](data_Cleaning/erd_diagram.png)
+![Entity Relationship Diagram](data_cleaning/erd_diagram.png)
 
 
 
