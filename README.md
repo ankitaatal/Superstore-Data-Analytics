@@ -29,18 +29,16 @@ An ERD (Entity Relationship Diagram) is included to visualize relationships betw
 ```
 📦 Superstore-Analytics
 │── 📁 data/               # Contains dataset files
-│    ├── superstore.csv    # Raw dataset
 │    ├── README.md         # Detailed dataset description
+│    ├── Superstore.csv    # Raw dataset
 │
-│── 📁 queries/            # SQL scripts for analysis
-│    ├── superstore.sql    # Creates database & tables
+│── 📁 data_cleaning/          
+│    ├── data_cleaning.ipynb   # Jupyter notebooks for data cleaning
+│    ├── erd_diagram.png       # ERD diagram
+│
+│── 📁 queries/              # SQL scripts for analysis
+│    ├── superstore_db.sql    # Creates database & tables
 │    ├── analysis.sql      # SQL queries for business insights
-│
-│── 📁 notebooks/          # Jupyter notebooks for data cleaning
-│    ├── data_cleaning.ipynb
-│
-│── 📁 assets/             # ERD diagram & visuals
-│    ├── erd_diagram.png
 │
 │── README.md              # Project documentation (this file)
 ```
