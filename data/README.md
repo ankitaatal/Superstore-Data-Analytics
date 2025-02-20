@@ -1,15 +1,12 @@
 # 📂 Superstore Dataset - Data Overview
----
+
 ## 📌 About the Dataset
----
 The **Superstore Dataset** contains transactional sales data from a fictional retail store. It includes detailed information on **orders, customers, products, sales, and shipping details**. This dataset is structured to support business analysis, including **sales performance, customer segmentation, product trends, and operational efficiency**.
 
 ## 📑 Data Structure
----
 The dataset consists of **9,999 rows** and **21 columns**, each capturing a specific aspect of an order.
 
 ## 🔑 Key Columns & Descriptions
----
 | Column Name | Description |
 |-------------|------------|
 | **Row ID** | Unique identifier for each row. |
