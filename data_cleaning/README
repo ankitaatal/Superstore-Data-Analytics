@@ -1,6 +1,6 @@
-# **Data Cleaning Process**
+# Data Cleaning Process
 
-## **📌 Overview**
+## 📌 Overview
 This project involved **cleaning and transforming the Superstore dataset** using **Python (Pandas) in Jupyter Notebook**. The raw dataset was **processed and split** into four structured tables: **Customers, Orders, Products, and Sales**.
 
 The cleaned dataset ensures:
