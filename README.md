@@ -16,6 +16,14 @@ Entity Relationship Diagram (ERD)
 ---
 An ERD (Entity Relationship Diagram) is included to visualize relationships between tables.
 
+### 📌 Entity Relationship Diagram (ERD)
+An **ERD (Entity Relationship Diagram)** is included to visualize relationships between tables.
+
+📂 Location: [`queries/ERD.mwb`](queries/ERD.mwb)  
+
+![Entity Relationship Diagram](queries/ERD.png)
+
+
 
  Key Data Insights
 ---
