@@ -17,11 +17,11 @@ To understand the relationships between these tables, refer to the **Entity Rela
 
 ## Data Cleaning Process
 Performed in **Jupyter Notebook** using **Python (pandas, NumPy)** to ensure data consistency before database creation.
-✔ **Removed duplicates** & **handled missing values**  
-✔ **Converted dates** to proper format (order_date, ship_date)  
-✔ **Standardized categorical values**  
-✔ **Split data** into four **normalized tables**  
-📍 **Notebook Location**: [`data_cleaning.ipynb`](data_cleaning/data_cleaning.ipynb)
+- **Removed duplicates** & **handled missing values**  
+- **Converted dates** to proper format (order_date, ship_date)  
+- **Standardized categorical values**  
+- **Split data** into four **normalized tables**  
+**Notebook Location**: [`data_cleaning.ipynb`](data_cleaning/data_cleaning.ipynb)
 
 ## Key Insights & Analysis
 **1. _Sales Performance & Revenue_**:  Analyzed **total sales, profit trends, and discount impact**. Identified **growth patterns across months, quarters, and years** to optimize pricing and promotions.
@@ -33,11 +33,11 @@ Performed in **Jupyter Notebook** using **Python (pandas, NumPy)** to ensure dat
 **4. Operational & Logistics Efficiency**:  Evaluated **shipping times, delays, and cost-effectiveness** across shipping modes. Assessed **seasonality trends** to optimize logistics and delivery performance.
 
 ## Technologies Used
-✔ **SQL (MySQL)** for **data analysis**  
-✔ **CTEs & Temporary Tables** for **efficient queries**  
-✔ **Window Functions** (DENSE_RANK, LAG, NTILE)  
-✔ **Aggregation & Joins** for **relational insights**  
-✔ **Python (pandas)** for **data cleaning**  
+- **SQL (MySQL)** for **data analysis**  
+- **CTEs & Temporary Tables** for **efficient queries**  
+- **Window Functions** (DENSE_RANK, LAG, NTILE)  
+- **Aggregation & Joins** for **relational insights**  
+- **Python (pandas)** for **data cleaning**  
 
 ## Project Structure
 ```
