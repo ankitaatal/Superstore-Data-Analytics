@@ -531,9 +531,12 @@ WITH rfm_raw AS (
     SELECT 
         c.customer_id,
         c.customer_name,
-        DATEDIFF(CURDATE(), MAX(o.order_date)) AS recency,  -- Days since last purchase
-        COUNT(DISTINCT o.order_id) AS frequency,  -- Total number of orders
-        SUM(s.sales) AS monetary  -- Total sales amount
+        DATEDIFF(
+            (SELECT MAX(order_date) FROM orders),  -- Latest order date in dataset
+            MAX(o.order_date)                      -- Customer’s most recent order
+        ) AS recency,  
+        COUNT(DISTINCT o.order_id) AS frequency,  
+        SUM(s.sales) AS monetary  
     FROM customers c
     JOIN orders o ON c.customer_id = o.customer_id
     JOIN sales s ON o.order_id = s.order_id
