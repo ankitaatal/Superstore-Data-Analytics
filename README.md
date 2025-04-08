@@ -1,4 +1,4 @@
-# **Superstore Data Analytics**
+# **Sales Performance Analysis**
 
 ## About the Project
 This project analyzes **sales performance, customer behavior, product trends, and operational logistics** using **SQL**. The dataset contains sales transactions from a fictional retail superstore, allowing us to extract valuable insights into **revenue trends, customer segmentation, product demand, and shipping efficiency**.
